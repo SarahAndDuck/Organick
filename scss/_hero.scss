@@ -1,0 +1,70 @@
+.section {
+  background: url("../imgs/hero-background.png"), url("../imgs/hero-image.png");
+  // background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #f1eff0;
+}
+
+.hero {
+  // .hero__container
+
+  &__container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-top: 246px;
+    padding-left: 98px;
+    padding-bottom: 246px;
+  }
+
+  // .hero__content
+
+  &__content {
+    max-width: 530px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    .subtitle {
+      margin-bottom: 8px;
+    }
+    .title {
+      margin-bottom: 23px;
+      font-size: 70px;
+      width: 100%;
+      line-height: 117%;
+    }
+  }
+
+  // .hero__btn
+
+  &__btn {
+    color: #274c5b;
+    background: #efd372;
+    position: relative;
+  }
+  &__btn::after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    transform: translateY(-50%);
+    right: 29px;
+    width: 19px;
+    height: 19px;
+    border-radius: 50%;
+    background-color: #335b6b;
+    background-image: url("../imgs/icons/aerrow.png");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    z-index: 4;
+  }
+
+  // .hero__image
+
+  &__image {
+  }
+}
+
+.btn {
+}

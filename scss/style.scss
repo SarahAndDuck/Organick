@@ -19,7 +19,7 @@
 .main {
   flex: 1 0 auto;
 }
-title {
+.title {
   font-family: var(--font-family);
   font-weight: 800;
   color: #274c5b;
@@ -58,6 +58,12 @@ h4.title {
   text-align: center;
   color: #274c5b;
 }
+.subtitle {
+  font-family: var(--third-family);
+  font-weight: 400;
+  font-size: 36px;
+  color: #68a47f;
+}
 .btn {
   border-radius: 16px;
   display: flex;
@@ -70,5 +76,11 @@ h4.title {
   font-size: 20px;
   color: #fff;
 }
+.container {
+  max-width: 1480px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
 @import "./reset.scss";
 @import "./header.scss";
+@import "./hero.scss";
