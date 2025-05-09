@@ -1,0 +1,63 @@
+.baners {
+  // .baners__container
+
+  &__container {
+    padding-top: 154px;
+    padding-bottom: 154px;
+    display: flex;
+    justify-content: space-between;
+    gap: 36px;
+  }
+
+  // .baners__item
+
+  &__item {
+    border-radius: 30px;
+    overflow: hidden;
+    height: 367px;
+    width: 682px;
+    padding-top: 109px;
+    padding-left: 55px;
+  }
+  &__item:first-child {
+    background: url("../imgs/baner-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #f1eff0;
+    .baners__subtitle {
+      color: #fff;
+    }
+    .baners__title {
+      color: #fff;
+    }
+  }
+  &__item:nth-child(2) {
+    background: url("../imgs/baner-2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #f1eff0;
+    .baners__subtitle {
+      color: #7eb693;
+    }
+    .baners__title {
+      color: #274c5b;
+    }
+  }
+
+  // .baners__subtitle
+  &__subtitle {
+    font-family: var(--third-family);
+    font-weight: 400;
+    font-size: 36px;
+    width: 277px;
+  }
+
+  // .baners__title
+
+  &__title {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 40px;
+    width: 277px;
+  }
+}

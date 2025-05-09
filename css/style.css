@@ -380,13 +380,12 @@ textarea:not([rows]) {
   z-index: 4;
 }
 
-.section {
+.hero {
   background: url("../imgs/hero-background.png"), url("../imgs/hero-image.png");
   background-position: center;
   background-repeat: no-repeat;
   background-color: #f1eff0;
 }
-
 .hero__container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -447,4 +446,59 @@ textarea:not([rows]) {
   background-position: 50% 50%;
   background-repeat: no-repeat;
   z-index: 4;
+}
+.baners__container {
+  padding-top: 154px;
+  padding-bottom: 154px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 36px;
+}
+.baners__item {
+  border-radius: 30px;
+  overflow: hidden;
+  height: 367px;
+  width: 682px;
+  padding-top: 109px;
+  padding-left: 55px;
+}
+.baners__item:first-child {
+  background: url("../imgs/baner-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #f1eff0;
+}
+.baners__item:first-child .baners__subtitle {
+  color: #fff;
+}
+.baners__item:first-child .baners__title {
+  color: #fff;
+}
+.baners__item:nth-child(2) {
+  background: url("../imgs/baner-2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #f1eff0;
+}
+.baners__item:nth-child(2) .baners__subtitle {
+  color: #7eb693;
+}
+.baners__item:nth-child(2) .baners__title {
+  color: #274c5b;
+}
+.baners__subtitle {
+  font-family: var(--third-family);
+  font-weight: 400;
+  font-size: 36px;
+  width: 277px;
+}
+.baners__title {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 40px;
+  width: 277px;
 }/*# sourceMappingURL=style.css.map */
