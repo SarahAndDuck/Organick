@@ -236,7 +236,7 @@ textarea:not([rows]) {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 14px 7px;
+  gap: 14px 150px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
@@ -298,6 +298,7 @@ textarea:not([rows]) {
 }
 .user-bar__search {
   position: relative;
+  width: 376px;
 }
 .user-bar__input-search {
   font-family: var(--font-family);
@@ -306,7 +307,6 @@ textarea:not([rows]) {
   color: #274c5b;
   padding: 5px 67px 5px 25px;
   border-radius: 36px;
-  width: 376px;
   height: 66px;
   background: #fafafa;
   outline: 1px solid #e0e0e0;
@@ -320,7 +320,7 @@ textarea:not([rows]) {
   -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
-  right: 6px;
+  right: 26px;
   width: 56px;
   height: 56px;
   border-radius: 50%;
